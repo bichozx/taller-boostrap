@@ -22,7 +22,8 @@ header h1{
 }
 .articulo1 a{
     color: whitesmoke;
-    width: 50px;
+    font-size: 2vw;
+    width: 80px;
     padding: 1px;
     position: relative;
     display: inline-block;
@@ -30,7 +31,7 @@ header h1{
     text-align: justify left;
 }
 #parte2a{
-    margin-bottom: 40px;
+    margin-top: 50px;
 }
 #parte2a h3{
     color: black;
@@ -60,24 +61,45 @@ footer{
     #parte1{
         background-color: white;
     }
-    .articulo1 a{
-        color: darkblue;
-        width: 100px;
-        position: relative;
-        display: inline-block;
-        margin-left: 40px;
-        text-align: center;
-    }
     #parte2a a{
         color:  darkblue;
-        margin-left: 450px;
+        margin-left: 200px;
     }
     footer{
         color: blanchedalmond;
-        font-size: 3vw;
+        font-size: 8vw;
         background-color: black;
         
     }
+    .articulo1 a{
+        color: darkblue;
+        font-size: 3vw;
+        width: 50px;
+        padding: 1px;
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        text-align: justify left;
+    }
+    #parte2a h3{
+        color: black;
+        text-align: center;
+        font-size: 6vw; 
+    }
+    #parte1{
+       
+        text-justify: auto;
+    }
+    #parte2a p{
+        text-align: center;
+        text-justify: auto;
+    }
+    #parte1 h2{
+        text-align: center;
+
+    }
+    
+
 
 }
 
