@@ -1,0 +1,89 @@
+header{
+    background-color: darkcyan;
+    padding: 10px;
+    border-bottom: darkgray solid 2px
+}
+header h1{
+    color: whitesmoke;
+    font-size: 4vw;
+    text-decoration: whitesmoke;
+}
+#parte1{
+    background-color: darkgrey;
+    border-bottom: black solid 2px;
+  
+}
+#articulo1 h2{
+    color: black;
+    font-size: 4vw;
+    text-decoration: black;
+    padding: 5px;
+    display: inline-block;
+}
+.articulo1 a{
+    color: whitesmoke;
+    width: 50px;
+    padding: 1px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-align: justify left;
+}
+#parte2a{
+    margin-bottom: 40px;
+}
+#parte2a h3{
+    color: black;
+    font-size: 3vw;
+}
+
+.col-md-5{
+    border: 2px solid black;
+}
+footer{
+    color: whitesmoke;
+    font-size: 1.5vw;
+    text-align: center;
+    border-top: black solid 1px;
+    background-color: darkgray;
+    position: relative;
+    margin-top: 40px;
+}
+@media screen and (max-width: 600px){
+    header{
+        background-color: black;
+        border-bottom: darkgray solid 4px
+    }
+    header h1{
+        font-size: 5vw;
+    }
+    #parte1{
+        background-color: white;
+    }
+    .articulo1 a{
+        color: darkblue;
+        width: 100px;
+        position: relative;
+        display: inline-block;
+        margin-left: 40px;
+        text-align: center;
+    }
+    #parte2a a{
+        color:  darkblue;
+        margin-left: 450px;
+    }
+    footer{
+        color: blanchedalmond;
+        font-size: 3vw;
+        background-color: black;
+        
+    }
+
+}
+
+
+
+
+
+
+    
